@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20px arial;
+        }
+        input  {
+            width: 100px;
+            height: 50px;
+            font: normal 18px arial;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Desafios das Mensagens</h1>
+    <input type="button" value="Botão 1" id="BT1">
+    <input type="button" value="Botão 2" name="BT2">
+    <input type="button" value="Botão 3" id="BT3">
+
+    <script>
+        b1 = document.getElementById('BT1')
+        b2 = document.getElementsByName('BT2')[0]
+        b3 = document.querySelector('#BT3')
+
+        b1.addEventListener('click',clicou1)
+        b2.addEventListener('click',clicou2)
+        b3.addEventListener('click',clicou3)
+
+        function clicou1 () {
+            alert('Você clicou no Botão 1')
+        }
+
+        function clicou2 () {
+            alert('Você clicou no Botão 2')
+        }
+
+        function clicou3 () {
+            alert('Você clicou no Botão 3')
+        }
+    </script>
+</body>
+</html>
