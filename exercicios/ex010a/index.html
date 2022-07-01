@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20px arial;
+        }
+
+        input {
+            font: normal 20px arial;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <p>Digite seu país</p>
+    <input type="text" name="txt" id="txt">
+    <input type="button" value="Verificar" onclick="checar ()">
+    <div id="res">
+        
+    </div>
+
+    <script>
+        function checar () {
+            pais = document.getElementById('txt')
+            res = document.getElementById('res')
+            if (pais.value == 'Brasil') {
+                res.innerText = 'Você é Brasileiro'
+            } else {
+                res.innerText = 'Você é Estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>
