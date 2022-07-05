@@ -6,10 +6,10 @@ function carregar() {
     msg.innerHTML = `Agora são ${hora} horas.`
     
     if (hora >=0 && hora < 12) {
-        img.src = 'midia/noite.png' 
+        img.src = 'manha.png' 
     } else if (hora >= 12 && hora <= 18) {
-        img.src ='midia/tarde.png'
+        img.src = 'tarde.png'
     } else {
-        img.src = 'midia/noite.png' 
+        img.src = 'noite.png'
     }
 }
