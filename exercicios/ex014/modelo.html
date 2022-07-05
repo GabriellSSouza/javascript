@@ -7,21 +7,23 @@
     <title>Hora do Dia</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="carregar()">
    <header>
-    <h1>Hora do Dia</h1>
+        <h1>Hora do Dia</h1>
    </header> 
    <section>
         <div id="msg">
             Aqui vai aperecer a mensagem
         </div> 
         <div id="foto">
-            <img src="/ex014/imagens/noite.png" alt="">
+            <img id="imagem" src="midia/manha.png" alt="foto de noite" >
         </div>  
     </section>
-    <script src="script.js"></script>
+
    <footer>
-    <p>&copy; CursoemVideo</p>
+        <p>&copy; CursoemVideo</p>
    </footer>
+
+   <script src="script.js"></script>
 </body>
 </html>
