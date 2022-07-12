@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(103, 192, 252) ;
+    font: normal 18px arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    color: white; 
+    text-align: center;
+    font-style:italic;
+} 
+
+table {
+    border-collapse: collapse;
+    /*width: 110px;*/
+    height: 100px;
+}
+
+td {
+    border: 1px solid rgb(97, 96, 96);
+    padding: 3px;
+
+}
+td:hover{
+    background-color:#3390FD ;
+    color: white;
+}
+
+
+#caixa{
+    overflow-y: scroll;
+    /*width: 126.5px;*/
+    height: 150px;
+}
