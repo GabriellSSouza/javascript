@@ -7,15 +7,16 @@ function contar() {
     fi = Number(fim.value)
     pas = Number(passo.value)
     c = document.getElementById('cont')
+    c.innerHTML = ''
     if(ini <fi) {
-        for(i = ini;ini<=fi;i += pas){
-        c.innerText += ` ${ini}`
-        ini++
+        for(i = ini;i<=fi;i += pas){
+        c.innerText += ` ${i}`
+        //ini++
         }
     }else {
-        for(i = ini;ini>=fi;i -= pas){
-            c.innerText += ` ${ini}`
-            ini--
+        for(i = ini;i>=fi;i -= pas){
+            c.innerText += ` ${i}`
+          //  ini--
         }
     }
     
