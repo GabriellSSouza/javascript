@@ -11,12 +11,13 @@ function adicionar() {
     item = document.createElement('option')
     item.text = `valor ${n[c]} Adicionado`
     tab.appendChild(item)
-    
+
 }
 function finalizar(){
     res = document.getElementById('res')
     res.innerHTML = ''
-    item = document.createElement('p')
-    item.text = `O maior valor informado foi `
-    res.appendChild(item)   
+    ite = document.createElement('p')
+    ite.text = `O maior valor informado foi `
+    res.appendChild(ite)   
 }
+//console.log(`${n[0]}`)
