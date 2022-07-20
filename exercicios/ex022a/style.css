@@ -19,8 +19,12 @@ section {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
-#flista {
-    width: 150px;
+#tt{
+    margin-top: 0px;
+}
+
+#tabela {
+ /*   height: 200px;*/
 }
 
 footer {
